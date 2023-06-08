@@ -1,0 +1,132 @@
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-conteudo {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  max-width: 300px;
+  max-height: auto;
+  overflow: auto;
+}
+
+#fechar-modal {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#salvar-modal {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+#abrir-modal {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: 100px;
+  left: 8%;
+  font-weight: bold;
+}
+
+#modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#tabela-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 165px;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+input {
+  width: 300px;
+}
+
+.btn-acoes {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+#btn-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#shadow {
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.4));
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008cba;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
