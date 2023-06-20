@@ -52,8 +52,8 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  position: relative;
-  top: 100px;
+  position: fixed;
+  top: 64px;
   left: 8%;
   font-weight: bold;
 }
@@ -74,7 +74,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2.5%;
+  margin-bottom: 64px;
+  margin-top: 64px;
 }
 
 
