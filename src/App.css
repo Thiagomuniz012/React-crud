@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .modal {
   position: fixed;
@@ -30,6 +31,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  width: 96px;
 }
 
 #salvar-modal {
@@ -40,6 +42,7 @@
   border-radius: 5px;
   cursor: pointer;
   float: right;
+  width: 96px;
 }
 
 #abrir-modal {
@@ -71,9 +74,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 165px;
+  margin-bottom: 2.5%;
 }
+
 
 
 table {
@@ -129,4 +132,19 @@ h1{
 
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus{
+  outline: 0;
+}
+
+#titulo-modal{
+  text-align: center;
 }

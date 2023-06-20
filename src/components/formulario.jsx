@@ -86,7 +86,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <div>
         <button onClick={abrirModal} id="abrir-modal">
           Adicionar Período
@@ -95,7 +95,7 @@ const App = () => {
         {modalVisivel ? (
           <div className="modal">
             <div className="modal-conteudo">
-              <h1>
+              <h1 id="titulo-modal">
                 {editingperiodoIndex === -1
                   ? "Adicionar Período"
                   : "Atualizar Período"}
@@ -140,8 +140,8 @@ const App = () => {
               <br />
               <button onClick={handleAddperiodo} id="salvar-modal">
                 {editingperiodoIndex === -1
-                  ? "Adicionar Período"
-                  : "Atualizar Período"}
+                  ? "Adicionar"
+                  : "Atualizar"}
               </button>
               <button onClick={fecharModal} id="fechar-modal">
                 Fechar
@@ -199,7 +199,7 @@ const App = () => {
           </table>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
